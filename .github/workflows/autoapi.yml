@@ -1,5 +1,5 @@
 
-#自动调用api保活，加密版
+#自动调用api保活，加密版，
 name: E5 Auto Renew
 
 on: 
@@ -9,7 +9,7 @@ on:
     branches: 
       - master
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '* * * * */30'
   watch:
     types: [started]
    
